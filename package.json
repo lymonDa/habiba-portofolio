@@ -1,0 +1,21 @@
+{
+  "name": "habiba-portofolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview --port 3000 --host",
+    "start": "vite preview --port 3000 --host",
+    "test": "node scripts/test-browser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0",
+    "vite": "^8.3.5"
+  }
+}

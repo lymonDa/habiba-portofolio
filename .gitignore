@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Production / build output
+dist/
+
+# Backups and archives
+*.bak
+chunks.bak/
+css.bak/
+*.zip
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and environment
+*.log
+.env
+.env.*
+!.env.example
